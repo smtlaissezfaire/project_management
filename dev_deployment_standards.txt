@@ -1,16 +1,19 @@
-dev mode standards:
+Dev Mode Standards:
+
 - 1 sec. requests
 - 350 objects.  Otherwise, look into caching and limit the object counts.
 
-pre deployment performance checks:
+
+Pre-Deployment Performance / QA checks:
+
 - How much RSS will it take to restart the mongrel in the monit config? (usually in /etc/monit.d/*)
 - What is the avg. process size (RSS) on staging, when running in a "production" env.
 - How much free ram (free -m) is available when running at full steam?
-- what are the specs of the various servers?  Are they all configured in the same manner
+- What are the specs of the various servers?  Are they all configured in the same manner
   - cat /proc/cpuinfo
   - free -m (buffers/cache)
-- where are background tasks running?  Are they only running on one slice?
-- check the following for errors:
+- Where are background tasks running?  Are they only running on one slice?
+- Check the following for errors:
     sudo tail -f /var/log/syslog
     strace: http://www.hokstad.com/5-simple-ways-to-troubleshoot-using-strace.html
     dtrace: ?
