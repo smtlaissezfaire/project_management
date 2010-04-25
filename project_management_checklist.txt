@@ -1,12 +1,12 @@
 Project Management Checklist:
 
 Pre-Launch:
-
+===========
 - Who are the stakeholders?
 - Who is our primary contact on the project for the client?
 - Who ultimately makes the decisions on the project for the client (is it someone other than the primary contact - e.g. a CEO who pops his head in at the last minute, etc.)
 - Who is the project leader on our end (Jeff, Josh, Emily, ...)?
-- What are the main goals of the project?
+- What are the main goals of the project?  How can they be measured?
 - What is most important, ranked in order for the project?
   - features
   - time of launch
@@ -18,18 +18,31 @@ Pre-Launch:
 - What third-party dependencies do we have?
 - Who is the tech lead for the project?
 - Who is the project manager? Who's responsibility is it to communicate with the client?
+- What are the milestones/deliverables?
+  - What are internal milestones / deliverables?
+- How long after this phase of launch will bugs / feature requests be fixed/fielded?
+
 
 Resource / Planning:
-
+====================
+- Do we have wireframes and/or mockups for this phase of the project?
 - What is the duration of the project?
 - Is the tech lead also the project manager for the project?
 - What resources (design / dev) are available?  How much time will each person dedicate per week to the project?
-- What are the major parts of the app?
+- What are the major components of the app?
+- What are the unknowns (feature-wise)?
+- What are the major risks on this project?
 - Do we have gantt charts / time boxing or something similar to figure out who is building what, and at what time?
+- How often should internal QA checks be performed?  How much time will it take to perform an internal QA check?
+
 
 Pre-Launch:
+===========
 - Have all dev/pre-deployment standards been met?
 - Is everything on the "must-have" list completed?
+- Do we have sign-off from the client?
 
 Meta:
+=====
 - How often should this list be reevaluated in the project?
+
