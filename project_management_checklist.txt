@@ -1,0 +1,35 @@
+Project Management Checklist:
+
+Pre-Launch:
+
+- Who are the stakeholders?
+- Who is our primary contact on the project for the client?
+- Who ultimately makes the decisions on the project for the client (is it someone other than the primary contact - e.g. a CEO who pops his head in at the last minute, etc.)
+- Who is the project leader on our end (Jeff, Josh, Emily, ...)?
+- What are the main goals of the project?
+- What is most important, ranked in order for the project?
+  - features
+  - time of launch
+  - bugs (non-critical)
+  - performance / scaling
+- What signifies the end of the project (or this phase of the project)?
+- What features are acceptable to leave out / leave broken in this launch? (Nice-to-have vs. essential features for which the product cannot launch)
+- What do we anticipate being difficult on this project?  What is unique about this one?
+- What third-party dependencies do we have?
+- Who is the tech lead for the project?
+- Who is the project manager? Who's responsibility is it to communicate with the client?
+
+Resource / Planning:
+
+- What is the duration of the project?
+- Is the tech lead also the project manager for the project?
+- What resources (design / dev) are available?  How much time will each person dedicate per week to the project?
+- What are the major parts of the app?
+- Do we have gantt charts / time boxing or something similar to figure out who is building what, and at what time?
+
+Pre-Launch:
+- Have all dev/pre-deployment standards been met?
+- Is everything on the "must-have" list completed?
+
+Meta:
+- How often should this list be reevaluated in the project?
