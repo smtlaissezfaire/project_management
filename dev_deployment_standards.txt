@@ -3,16 +3,16 @@ dev mode standards:
 - 350 objects.  Otherwise, look into caching and limit the object counts.
 
 pre deployment performance checks:
-- How much ram will it take to restart the mongrel in the monit config?
-    (/etc/monit.d/*)
-- what is the avg. process size (RSS) on staging, when running in a "production" env.
-  How much free ram is available when running at full steam?
+- How much RSS will it take to restart the mongrel in the monit config? (usually in /etc/monit.d/*)
+- What is the avg. process size (RSS) on staging, when running in a "production" env.
+- How much free ram (free -m) is available when running at full steam?
 - what are the specs of the various servers?  Are they all configured in the same manner
-       - cat /proc/cpuinfo
-       - free -m (buffers/cache)
-- where are background tasks running?  Are they only running on one slice? 
-- check
+  - cat /proc/cpuinfo
+  - free -m (buffers/cache)
+- where are background tasks running?  Are they only running on one slice?
+- check the following for errors:
     sudo tail -f /var/log/syslog
     strace: http://www.hokstad.com/5-simple-ways-to-troubleshoot-using-strace.html
+    dtrace: ?
 - memcached:
   - what % are cache hits vs. misses?
