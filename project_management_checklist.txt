@@ -36,13 +36,26 @@ Resource / Planning:
 - How often should internal QA checks be performed?  How much time will it take to perform an internal QA check?
 
 
+Meta:
+=====
+- How often should this list be reevaluated in the project?
+- What should be added to this list / removed from this list for the next iteration?
+- What should be added to this list / removed from this list for succeeding projects?
+
 Pre-Launch:
 ===========
 - Have all dev/pre-deployment standards been met?
 - Is everything on the "must-have" list completed?
 - Do we have sign-off from the client?
 
-Meta:
-=====
-- How often should this list be reevaluated in the project?
+Post-Launch
+===========
 
+- What critical bugs are left outstanding?
+- Are there any critical features left unfinished / incomplete?
+- What "nice to haves" work is left to do?  What is the schedule/plan for doing it (if at all)?
+- What ongoing maintenance is still to come?
+- What is the defect rate after in production / after this release?
+  If not a version 1 release, how does the defect rate compare to previous versions?
+- Are all reported LH bugs fixed?
+- Are all (internal app reported) hoptoad errors fixed?
